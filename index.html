@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback User</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+   
+    <div class="main "> 
+        <h1>Feedback UI</h1>
+    <div class="container">
+      
+        <div class="happy emoji box "onclick="$(this).addClass('active').siblings().removeClass('active');">  
+        
+            <img src="images/happy1.png" alt="happy emoji" height="50">
+            <h4>Happy</h4>
+        </div>
+
+        <div class="neutral emoji box" onclick="$(this).addClass('active').siblings().removeClass('active');">    
+       
+            <img src="images/nutural.png" alt="neutral emoji" height="50">
+            <h4>Neutral</h4>
+        </div>
+        <div class="sad emoji box" onclick="$(this).addClass('active').siblings().removeClass('active');">
+            <img src="images/sad.png" alt="sad emoji" height="50">
+            <h4>Sad</h4>
+        </div>
+       
+      
+    </div>
+    <div class="send">  <button>Send Review</button> </div>
+</div>
+<script src="javaScript.js"></script>
+</body>
+</html>
